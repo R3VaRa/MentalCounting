@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MentalCounting">
         <activity
+            android:label="@string/calculatricetp2"
+            android:name=".CalculatriceTP2"
+            android:exported="false" />
+        <activity
+            android:label="@string/calculator"
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity
+            android:label="@string/mentalactivity"
+            android:name=".MentalCountingActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

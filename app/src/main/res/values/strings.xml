@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">MentalCounting</string>
+    <string name="button">Button</string>
+
+    <string name="resultat">0</string>
+
+    <string name="button0" translatable="false">0</string>
+    <string name="button1" translatable="false">1</string>
+    <string name="button2" translatable="false">2</string>
+    <string name="button3" translatable="false">3</string>
+    <string name="button4" translatable="false">4</string>
+    <string name="button5" translatable="false">5</string>
+    <string name="button6" translatable="false">6</string>
+    <string name="button7" translatable="false">7</string>
+    <string name="button8" translatable="false">8</string>
+    <string name="button9" translatable="false">9</string>
+
+    <string name="button_egale" translatable="false">=</string>
+    <string name="button_plus" translatable="false">+</string>
+    <string name="button_moins" translatable="false">-</string>
+    <string name="button_multiplier" translatable="false">×</string>
+    <string name="button__diviser" translatable="false">÷</string>
+    <string name="button_modulo" translatable="false">%</string>
+    <string name="button_plusMoins" translatable="false">+/-</string>
+    <string name="button_AC" translatable="false">AC</string>
+
+
+    <string name="operation"> </string>
+    <string name="mainactivity">MainActivity</string>
+    <string name="mentalcounting">MentalCounting</string>
+    <string name="calculator">Calculator</string>
+    <string name="mentalactivity">MentalActivity</string>
+
+    <string name="calculeEnCours"> </string>
+    <string name="calculatricetp2">CalculatriceTP2</string>
+    <string name="compute">COMPUTE</string>
+
 </resources>
