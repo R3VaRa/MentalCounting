@@ -6,4 +6,6 @@
     <item android:id="@+id/compute"
         android:title="@string/compute"
         app:showAsAction="always"/>
+    <item android:id="@+id/home"
+        android:title="@string/retour_menu"/>
 </menu>

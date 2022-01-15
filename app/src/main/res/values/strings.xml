@@ -34,5 +34,6 @@
     <string name="calculeEnCours"> </string>
     <string name="calculatricetp2">CalculatriceTP2</string>
     <string name="compute">COMPUTE</string>
+    <string name="retour_menu">Retour_Menu</string>
 
 </resources>
