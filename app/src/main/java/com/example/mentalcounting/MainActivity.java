@@ -42,13 +42,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void changerFenetre(String txt){
         if(txt.equals("Calculator")){
-            Intent intent = new Intent(MainActivity.this,Calculator.class);
+            Intent intent = new Intent(this,Calculator.class);
             startActivity(intent);
-        }else if(txt.equals("MentalActivity")){
-            Intent intent = new Intent(MainActivity.this,MentalCountingActivity.class);
+        }else if(txt.equals("MentalCounting")){
+            Intent intent = new Intent(this,MentalCountingActivity.class);
             startActivity(intent);
         }else if(txt.equals("CalculatriceTP2")){
-            Intent intent = new Intent(MainActivity.this,CalculatriceTP2.class);
+            Intent intent = new Intent(this,CalculatriceTP2.class);
             startActivity(intent);
         }
     }

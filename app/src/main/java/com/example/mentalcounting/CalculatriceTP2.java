@@ -76,6 +76,8 @@ public class CalculatriceTP2 extends AppCompatActivity {
             case R.id.compute:
                 compute();
                 return true;
+            case R.id.clear:
+                return true;
             case R.id.home:
                 returnToHome();
                 return true;

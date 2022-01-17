@@ -34,6 +34,14 @@
     <string name="calculeEnCours"> </string>
     <string name="calculatricetp2">CalculatriceTP2</string>
     <string name="compute">COMPUTE</string>
-    <string name="retour_menu">Retour_Menu</string>
+    <string name="retour_menu">Menu</string>
+    <string name="valider">Valider</string>
+    <string name="affichage_calcule"> </string>
+    <string name="affichage_saisie"> </string>
+    <string name="virgule">,</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="lastcalcul">X x X = X</string>
+    <string name="x_previouscomputation">X previouscomputation</string>
+    <string name="clear">Clear</string>
 
 </resources>
