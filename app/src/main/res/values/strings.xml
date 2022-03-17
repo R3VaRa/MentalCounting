@@ -1,47 +1,61 @@
 <resources>
-    <string name="app_name">MentalCounting</string>
-    <string name="button">Button</string>
+    <string name="app_name">Calcul mental</string>
 
-    <string name="resultat">0</string>
+    <string name="mental_math">Calcul Mental</string>
+    <string name="play">Jouer</string>
+    <string name="top_ten">Top 10</string>
+    <string name="statistics">Statistiques</string>
 
-    <string name="button0" translatable="false">0</string>
-    <string name="button1" translatable="false">1</string>
-    <string name="button2" translatable="false">2</string>
-    <string name="button3" translatable="false">3</string>
-    <string name="button4" translatable="false">4</string>
-    <string name="button5" translatable="false">5</string>
-    <string name="button6" translatable="false">6</string>
-    <string name="button7" translatable="false">7</string>
-    <string name="button8" translatable="false">8</string>
-    <string name="button9" translatable="false">9</string>
+    <string name="lives_3">Vies : 3 ♥ ♥ ♥</string>
+    <string name="lives_2">Vies : 2 ♥ ♥</string>
+    <string name="life_1">Vie : 1 ♥</string>
+    <string name="score">Score :</string>
 
-    <string name="button_egale" translatable="false">=</string>
-    <string name="button_plus" translatable="false">+</string>
-    <string name="button_moins" translatable="false">-</string>
-    <string name="button_multiplier" translatable="false">×</string>
-    <string name="button__diviser" translatable="false">÷</string>
-    <string name="button_modulo" translatable="false">%</string>
-    <string name="button_plusMoins" translatable="false">+/-</string>
-    <string name="button_AC" translatable="false">AC</string>
+    <string name="validation">Validation</string>
+    <string name="input">Saisie</string>
+    <string name="calculate">Calcul</string>
+    <string name="validate">Valider</string>
+    <string name="clear">Supprimer</string>
+
+    <string name="_0" translatable="false">0</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="_6" translatable="false">6</string>
+    <string name="_5" translatable="false">5</string>
+    <string name="_4" translatable="false">4</string>
+    <string name="_7" translatable="false">7</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_9" translatable="false">9</string>
+
+    <string name="DIVIDE" translatable="false">÷</string>
+    <string name="MULTIPLY" translatable="false">×</string>
+    <string name="SUBSTRACT" translatable="false">-</string>
+    <string name="ADD" translatable="false">+</string>
+
+    <string name="correct_or_incorrect_answer">Réponse correcte ou incorrecte</string>
+    <string name="correct_answer">Réponse Correcte</string>
+    <string name="incorrect_answer">Réponse incorrecte</string>
+
+    <string name="ERROR_TOO_LARGE">Valeur trop grande</string>
+
+    <string name="personal_name">Nom personnel</string>
+    <string name="your_score_is">Votre score est de :</string>
+    <string name="register_line">Enregistrée vous pour avoir un vos statistique et entrée dans le classement.</string>
+
+    <string name="return_">Retour</string>
+    <string name="personal_name_DPoint">Nom Personnel :</string>
+    <string name="last_score">Dernier score :</string>
+    <string name="number_games_play">Nombre de partie jouer :</string>
+    <string name="biggestscore">Plus grand score :</string>
+    <string name="smallest_score">Plus petit score :</string>
+    <string name="average_score">Moyenne des scores :</string>
+
+    <string name="topten_score">Avec un score de :</string>
 
 
-    <string name="operation"> </string>
-    <string name="mainactivity">MainActivity</string>
-    <string name="mentalcounting">MentalCounting</string>
-    <string name="calculator">Calculator</string>
-    <string name="mentalactivity">MentalActivity</string>
+    <string name="me">Moi</string>
+    <string name="credit">Crédit</string>
 
-    <string name="calculeEnCours"> </string>
-    <string name="calculatricetp2">CalculatriceTP2</string>
-    <string name="compute">COMPUTE</string>
-    <string name="retour_menu">Menu</string>
-    <string name="valider">Valider</string>
-    <string name="affichage_calcule"> </string>
-    <string name="affichage_saisie"> </string>
-    <string name="virgule">,</string>
-    <string name="previous">PREVIOUS</string>
-    <string name="lastcalcul">X x X = X</string>
-    <string name="x_previouscomputation">X previouscomputation</string>
-    <string name="clear">Clear</string>
 
 </resources>

@@ -4,40 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    tools:context=".view.MainActivity">
+    tools:context=".view.RegisterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical"
-        android:gravity="center">
+        >
+
+        <TextView
+            android:id="@+id/RegisterTextViewScoreIs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/your_score_is" />
+        <TextView
+            android:id="@+id/RegisterTextViewRegisterLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingHorizontal="50dp"
+            android:text="@string/register_line" />
+
+        <EditText
+            android:id="@+id/RegisterEditTextPersonalName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLength="25"
+            android:gravity="center"
+            android:hint="@string/personal_name"/>
 
         <Button
-            android:id="@+id/MainButtonMentalCounting"
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="20dp"
-            android:text="@string/play" />
-
-        <Button
-            android:id="@+id/MainButtonTop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingHorizontal="20dp"
-            android:text="@string/top_ten" />
-
-        <Button
-            android:id="@+id/MainButtonStats"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingHorizontal="20dp"
-            android:text="@string/statistics" />
-        <Button
-            android:id="@+id/MainButtonSource"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingHorizontal="20dp"
-            android:text="@string/credit" />
+            android:text="@string/validate"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

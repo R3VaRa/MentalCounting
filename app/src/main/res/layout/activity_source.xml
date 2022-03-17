@@ -4,40 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    tools:context=".view.MainActivity">
+    tools:context=".view.SourceActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/MainButtonMentalCounting"
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="20dp"
-            android:text="@string/play" />
+            android:text="@string/me" />
 
-        <Button
-            android:id="@+id/MainButtonTop"
+        <TextView
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="20dp"
-            android:text="@string/top_ten" />
+            android:text="French - Français" />
 
-        <Button
-            android:id="@+id/MainButtonStats"
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="20dp"
-            android:text="@string/statistics" />
-        <Button
-            android:id="@+id/MainButtonSource"
+            android:text="English - English" />
+
+        <TextView
+            android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="20dp"
-            android:text="@string/credit" />
+            android:text="Russian - русский" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rémi Varachaud en groupe de SEUL Groupe 3" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

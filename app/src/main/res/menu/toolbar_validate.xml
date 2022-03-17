@@ -2,7 +2,7 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/home"
-        android:title="@string/retour_menu"
+    <item android:id="@+id/toolbar_validateValidate"
+        android:title="@string/validate"
         app:showAsAction="always"/>
 </menu>

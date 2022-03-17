@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Умственный счет</string>
+
+    <string name="mental_math">умственный расчет</string>
+    <string name="play">Играть</string>
+    <string name="top_ten">Топ 10</string>
+    <string name="statistics">Статистика</string>
+
+    <string name="lives_3">Жизни : 3 ♥ ♥ ♥</string>
+    <string name="lives_2">Жизни : 2 ♥ ♥</string>
+    <string name="life_1">Жизнь : 1 ♥</string>
+    <string name="score">Рейтинг :</string>
+
+    <string name="validation">Проверка</string>
+    <string name="input">Захватывать</string>
+    <string name="calculate">Расчет</string>
+    <string name="validate">Подтвердить</string>
+    <string name="clear">Удалять</string>
+
+    <string name="correct_or_incorrect_answer">Правильный или неправильный ответ</string>
+    <string name="correct_answer">Правильный ответ</string>
+    <string name="incorrect_answer">Неправильный ответ</string>
+
+    <string name="ERROR_TOO_LARGE">Слишком большое значение</string>
+    <string name="personal_name">Личное имя</string>
+    <string name="your_score_is">ваш счет :</string>
+    <string name="register_line">Зарегистрировался, чтобы иметь свою статистику и вход в рейтинг.</string>
+
+    <string name="return_">Вернуть</string>
+    <string name="personal_name_DPoint">Личное имя :</string>
+    <string name="last_score">Последний счет :</string>
+    <string name="number_games_play">Number of games played :</string>
+    <string name="biggestscore">Высший балл :</string>
+    <string name="smallest_score">Самый низкий балл :</string>
+    <string name="average_score">Средний балл :</string>
+
+    <string name="topten_score">С результатом :</string>
+    <string name="me">Мне</string>
+
+    <string name="credit">Кредит</string>
+
+</resources>
