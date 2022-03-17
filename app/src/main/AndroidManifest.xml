@@ -10,7 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MentalCounting">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.SourceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.TopTenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.StatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MentalCountingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

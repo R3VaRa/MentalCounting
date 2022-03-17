@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.StatsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/StatsEditTextPersonalName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/personal_name"
+            android:inputType="textPersonName"
+            android:maxLength="30" />
+
+        <TextView
+            android:id="@+id/StatsTextViewPersonalName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="@string/personal_name_DPoint" />
+
+        <TextView
+            android:id="@+id/StatsTextViewLastScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="@string/last_score" />
+
+        <TextView
+            android:id="@+id/StatsTextViewNumberGamesPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="@string/number_games_play" />
+
+        <TextView
+            android:id="@+id/StatsTextViewBiggestScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="@string/biggestscore" />
+
+        <TextView
+            android:id="@+id/StatsTextViewSmallestScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="@string/smallest_score" />
+
+        <TextView
+            android:id="@+id/StatsTextViewAverageScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:paddingBottom="5dp"
+            android:text="@string/average_score" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/StatsButtonValidate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginEnd="5dp"
+                    android:text="@string/validate" />
+
+                <Button
+                    android:id="@+id/StatsButtonReturn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginEnd="5dp"
+                    android:text="@string/return_" />
+            </LinearLayout>
+
+</LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

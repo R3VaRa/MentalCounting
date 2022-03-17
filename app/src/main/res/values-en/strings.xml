@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mental Counting</string>
+
+    <string name="mental_math">Mental Math</string>
+    <string name="play">Play</string>
+    <string name="top_ten">Top 10</string>
+    <string name="statistics">Statistics</string>
+
+    <string name="lives_3">lives : 3 ♥ ♥ ♥</string>
+    <string name="lives_2">lives : 2 ♥ ♥</string>
+    <string name="life_1">life : 1 ♥</string>
+    <string name="score">Score :</string>
+
+    <string name="validation">valid</string>
+    <string name="input">Input</string>
+    <string name="calculate">Calculate</string>
+    <string name="validate">Validate</string>
+    <string name="clear">Clear</string>
+
+    <string name="correct_or_incorrect_answer">Correct or incorrect answer</string>
+    <string name="correct_answer">Correct answer</string>
+    <string name="incorrect_answer">Incorrect answer</string>
+
+    <string name="ERROR_TOO_LARGE">Value too high</string>
+    <string name="personal_name">Personal Name</string>
+    <string name="your_score_is">Your score is :</string>
+    <string name="register_line">Registered to have your statistics and entry in the ranking.</string>
+
+    <string name="return_">Return</string>
+    <string name="personal_name_DPoint">Personal name :</string>
+    <string name="last_score">Last score :</string>
+    <string name="number_games_play">Number of games played :</string>
+    <string name="biggestscore">Highest score :</string>
+    <string name="smallest_score">Lowest score :</string>
+    <string name="average_score">Score average :</string>
+
+    <string name="topten_score">With a score of :</string>
+    <string name="me">Me</string>
+
+    <string name="credit">Credit</string>
+
+</resources>
